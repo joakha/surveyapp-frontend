@@ -71,7 +71,7 @@ const QuestionAnswers = () => {
                                             data: chartData
                                         },
                                     ]}
-                                    width={400}
+                                    width={600}
                                     height={200}
                                 />
                             }
@@ -91,7 +91,7 @@ const QuestionAnswers = () => {
                             }
 
                             <Link to={`/answerlist/${question.survey.id}`}>
-                                <Button sx={{ marginLeft: 2, marginBottom: 2 }} variant="contained">Takaisin kysymyslistaan</Button>
+                                <Button sx={{ marginLeft: 10, marginTop: 2 }} variant="contained">Takaisin kysymyslistaan</Button>
                             </Link>
                         </>
                     )
